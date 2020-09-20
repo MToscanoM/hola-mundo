@@ -1,9 +1,12 @@
-<<<<<<< HEAD
-# hola-mundo
-Otro repositorio de prueba
-Haciendo el tutorial de GitHub
-=======
-# hola-mundo
+# hola-mundo GitHub
 
-Ahora aprendiendo PYTHON
+- Otro repositorio de prueba
+- Haciendo el tutorial de GitHub
+
+=======
+
+## hola-mundo PYTHON
+
+- Ahora aprendiendo PYTHON
+- PreBootcamp DevOps con KeepCoding
 
