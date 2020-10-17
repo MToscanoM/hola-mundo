@@ -13,7 +13,6 @@ def fahrenheit(ini, fin):
         print("{}ºC -> {}ºF".format(grados, centigradosToFahrenheit(grados)))
         
 tipo = input("Salida (F/C): ")
-#tipo = entradaTipo.capitalize()
 
 while tipo.capitalize() != 'C' and tipo.capitalize() != 'F':
     print("Tipo incorrecto")

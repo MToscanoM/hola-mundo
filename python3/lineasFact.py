@@ -29,7 +29,6 @@ for item in listaLineasFact:
     print(item['precio'], "€ -", item['unidades'], "unidades -", item['unidades'] * item['precio'], "€\n")
     
     
-print("-----------------------")
-print("Total:", precioTotal)
-print("Unidades:", totalItems)
-    
+print("\033[3;33;41m")
+print("-----------------------\nTotal:\t\t{:7.2f}€\nUnidades:\t{:7.2f}€".format(precioTotal, totalItems))
+print("\033[0;37;40m")
