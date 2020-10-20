@@ -1,0 +1,14 @@
+def retrocontador(e):
+    print("{},".format(e), end="")
+    
+    if e > 0:
+        retrocontador(e-1)
+    
+#LA RECURSIVIDAD NO ES EFICIENTE, MEJOR NO USARLA.
+        
+retrocontador(10)
+
+def sumatorio(n):
+    return n + sumatorio(n-1)
+
+sumatorio(1)
